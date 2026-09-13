@@ -82,12 +82,10 @@ Contextually if a client makes a request for a specifc roomId that doesn't exist
 
 Question: From a cybersecurity standpoint, explain the risks associated with exposing internal Java stack traces to external API consumers. What specific information could an attacker gather from such a trace?
 
-A: Exposing Java stack can have major issue sucj as:
+A: Exposing Java stack can have major issue such as:
 
 - Revealing the name of classes/packages and file locations
 - Revealing database table names
-- 
 
-Question: Why is it advantageous to use JAX-RS filters for cross-cutting concerns like logging, rather than manually inserting Logger.info() statements inside every single resource method?
 
-A: Using JAX-RS filter for logging is advantageous because.
+
